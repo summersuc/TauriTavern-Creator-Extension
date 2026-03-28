@@ -1,0 +1,279 @@
+.ttce-theme-root {
+  --ttce-font-sans: "Segoe UI", "Noto Sans", sans-serif;
+  --ttce-font-mono: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+  --ttce-accent-blue: #3a78c2;
+  --ttce-accent-green: #4f8d5d;
+  --ttce-accent-amber: #b58a47;
+  --ttce-accent-red: #b65a54;
+
+  --ttce-bg-0: #111111;
+  --ttce-bg-1: #171717;
+  --ttce-bg-2: #202020;
+  --ttce-bg-3: #252525;
+  --ttce-bg-sidebar: #111111;
+  --ttce-bg-code: #0c0c0c;
+
+  --ttce-border: #323232;
+  --ttce-border-strong: #4a4a4a;
+
+  --ttce-text: #ece9e1;
+  --ttce-text-muted: #969089;
+  --ttce-text-soft: #7f786f;
+  --ttce-text-inverse: #111111;
+  --ttce-on-accent: #fffaf3;
+
+  --ttce-surface-hover: #222222;
+  --ttce-surface-active: #232c38;
+  --ttce-chip-bg: rgba(255, 255, 255, 0.04);
+  --ttce-chip-strong-bg: rgba(255, 255, 255, 0.1);
+  --ttce-control-bg: #131313;
+  --ttce-control-border: #323232;
+  --ttce-control-border-focus: #3a78c2;
+  --ttce-control-placeholder: #7f786f;
+  --ttce-control-shadow-focus: 0 0 0 3px rgba(58, 120, 194, 0.16);
+  --ttce-checkbox-bg: #131313;
+  --ttce-checkbox-border: #4a4a4a;
+  --ttce-checkbox-checked-bg: #4f8d5d;
+  --ttce-checkbox-checked-border: #4f8d5d;
+  --ttce-checkbox-check: #fffaf3;
+
+  --ttce-primary-bg: #202933;
+  --ttce-primary-bg-hover: #243241;
+  --ttce-primary-border: #35506d;
+  --ttce-primary-text: #edf2f7;
+
+  --ttce-accent-blue-soft-bg: rgba(58, 120, 194, 0.14);
+  --ttce-accent-blue-soft-text: #8ab6ef;
+  --ttce-accent-green-soft-bg: rgba(79, 141, 93, 0.14);
+  --ttce-accent-green-soft-text: #9ad3a6;
+  --ttce-accent-amber-soft-bg: rgba(181, 138, 71, 0.16);
+  --ttce-accent-amber-soft-text: #d7b378;
+  --ttce-accent-red-soft-bg: rgba(182, 90, 84, 0.12);
+  --ttce-accent-red-soft-border: rgba(182, 90, 84, 0.45);
+  --ttce-accent-red-soft-text: #f1c2bc;
+
+  --ttce-dot-neutral: #8e877e;
+  --ttce-indicator-neutral: #555555;
+
+  --ttce-bubble-button-bg: #ffffff;
+  --ttce-bubble-button-text: #111111;
+  --ttce-bubble-button-hover: #f0f0f0;
+  --ttce-bubble-button-active: #e8e8e8;
+
+  --ttce-backdrop: rgba(0, 0, 0, 0.72);
+  --ttce-shadow-panel: 0 16px 40px rgba(0, 0, 0, 0.4);
+  --ttce-shadow-floating: 0 6px 20px rgba(0, 0, 0, 0.25);
+  --ttce-shadow-dialog: 0 18px 50px rgba(0, 0, 0, 0.45);
+
+  --ttce-scrollbar: #3a3a3a;
+  --ttce-scrollbar-hover: #4a4a4a;
+
+  font-family: var(--ttce-font-sans);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ttce-text);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark;
+}
+
+.ttce-theme-root[data-ttce-appearance='day'] {
+  --ttce-bg-0: #f4ede3;
+  --ttce-bg-1: #fbf6ee;
+  --ttce-bg-2: #f1e8dc;
+  --ttce-bg-3: #e8dccd;
+  --ttce-bg-sidebar: #efe3d5;
+  --ttce-bg-code: #f7f1e8;
+
+  --ttce-border: #d7cab7;
+  --ttce-border-strong: #bcae99;
+
+  --ttce-text: #2e261f;
+  --ttce-text-muted: #6d6256;
+  --ttce-text-soft: #8b8073;
+  --ttce-text-inverse: #faf6ef;
+  --ttce-on-accent: #fffaf3;
+
+  --ttce-surface-hover: #ede2d4;
+  --ttce-surface-active: #e4d7c8;
+  --ttce-chip-bg: rgba(70, 52, 36, 0.06);
+  --ttce-chip-strong-bg: rgba(70, 52, 36, 0.12);
+  --ttce-control-bg: #f8f2e9;
+  --ttce-control-border: #d7cab7;
+  --ttce-control-border-focus: #7b9ac0;
+  --ttce-control-placeholder: #938675;
+  --ttce-control-shadow-focus: 0 0 0 3px rgba(123, 154, 192, 0.18);
+  --ttce-checkbox-bg: #f8f2e9;
+  --ttce-checkbox-border: #bcae99;
+  --ttce-checkbox-checked-bg: #5f8c67;
+  --ttce-checkbox-checked-border: #5f8c67;
+  --ttce-checkbox-check: #fffaf3;
+
+  --ttce-primary-bg: #e4dacc;
+  --ttce-primary-bg-hover: #dbcfbe;
+  --ttce-primary-border: #b7a58f;
+  --ttce-primary-text: #31271f;
+
+  --ttce-accent-blue-soft-bg: rgba(58, 120, 194, 0.12);
+  --ttce-accent-blue-soft-text: #416d97;
+  --ttce-accent-green-soft-bg: rgba(79, 141, 93, 0.12);
+  --ttce-accent-green-soft-text: #53785a;
+  --ttce-accent-amber-soft-bg: rgba(181, 138, 71, 0.14);
+  --ttce-accent-amber-soft-text: #8f6a32;
+  --ttce-accent-red-soft-bg: rgba(182, 90, 84, 0.1);
+  --ttce-accent-red-soft-border: rgba(162, 94, 87, 0.28);
+  --ttce-accent-red-soft-text: #8e554f;
+
+  --ttce-dot-neutral: #9f927f;
+  --ttce-indicator-neutral: #8f8475;
+
+  --ttce-bubble-button-bg: #2e261f;
+  --ttce-bubble-button-text: #faf6ef;
+  --ttce-bubble-button-hover: #45382d;
+  --ttce-bubble-button-active: #58483a;
+
+  --ttce-backdrop: rgba(58, 41, 27, 0.26);
+  --ttce-shadow-panel: 0 18px 44px rgba(67, 48, 31, 0.18);
+  --ttce-shadow-floating: 0 8px 22px rgba(67, 48, 31, 0.2);
+  --ttce-shadow-dialog: 0 22px 56px rgba(67, 48, 31, 0.24);
+
+  --ttce-scrollbar: #c5b7a4;
+  --ttce-scrollbar-hover: #b4a28c;
+
+  color-scheme: light;
+}
+
+.ttce-theme-root,
+.ttce-theme-root * {
+  box-sizing: border-box;
+}
+
+.ttce-theme-root[data-ttce-appearance] button,
+.ttce-theme-root[data-ttce-appearance] input,
+.ttce-theme-root[data-ttce-appearance] select,
+.ttce-theme-root[data-ttce-appearance] textarea {
+  font: inherit;
+  color-scheme: inherit;
+}
+
+.ttce-theme-root[data-ttce-appearance] .ttce-control {
+  font: inherit;
+  color: var(--ttce-text);
+  -webkit-text-fill-color: var(--ttce-text);
+  background-color: var(--ttce-control-bg);
+  border: 1px solid var(--ttce-control-border);
+  background-image: none;
+  box-shadow: inset 0 0 0 999px var(--ttce-control-bg);
+  caret-color: var(--ttce-text);
+  color-scheme: inherit;
+}
+
+.ttce-theme-root[data-ttce-appearance] .ttce-control::placeholder {
+  color: var(--ttce-control-placeholder);
+  opacity: 1;
+}
+
+.ttce-theme-root[data-ttce-appearance] .ttce-control:focus {
+  border-color: var(--ttce-control-border-focus);
+  box-shadow: inset 0 0 0 999px var(--ttce-control-bg), var(--ttce-control-shadow-focus);
+}
+
+.ttce-theme-root[data-ttce-appearance] .ttce-input-control {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ttce-theme-root[data-ttce-appearance] .ttce-number-control {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.ttce-theme-root[data-ttce-appearance] .ttce-number-control::-webkit-inner-spin-button,
+.ttce-theme-root[data-ttce-appearance] .ttce-number-control::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ttce-theme-root[data-ttce-appearance] .ttce-select-control {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--ttce-text-soft) 50%),
+    linear-gradient(135deg, var(--ttce-text-soft) 50%, transparent 50%);
+  background-position:
+    calc(100% - 16px) calc(50% - 1px),
+    calc(100% - 11px) calc(50% - 1px);
+  background-repeat: no-repeat;
+  background-size: 5px 5px;
+}
+
+.ttce-theme-root[data-ttce-appearance] .ttce-select-control option {
+  color: var(--ttce-text);
+  background-color: var(--ttce-control-bg);
+}
+
+.ttce-theme-root[data-ttce-appearance] input[type='checkbox'] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  border: 1px solid var(--ttce-checkbox-border);
+  border-radius: 5px;
+  background: var(--ttce-checkbox-bg);
+  display: inline-grid;
+  place-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.ttce-theme-root[data-ttce-appearance] input[type='checkbox']::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: var(--ttce-checkbox-check);
+  clip-path: polygon(14% 52%, 0 66%, 41% 100%, 100% 20%, 86% 6%, 41% 70%);
+  transform: scale(0);
+  transform-origin: center;
+  transition: transform 0.12s ease;
+}
+
+.ttce-theme-root[data-ttce-appearance] input[type='checkbox']:hover {
+  border-color: var(--ttce-control-border-focus);
+}
+
+.ttce-theme-root[data-ttce-appearance] input[type='checkbox']:checked {
+  background: var(--ttce-checkbox-checked-bg);
+  border-color: var(--ttce-checkbox-checked-border);
+}
+
+.ttce-theme-root[data-ttce-appearance] input[type='checkbox']:checked::before {
+  transform: scale(1);
+}
+
+.ttce-theme-root[data-ttce-appearance] :is(input, select, textarea, button):focus-visible {
+  outline: none;
+}
+
+.ttce-theme-root ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.ttce-theme-root ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ttce-theme-root ::-webkit-scrollbar-thumb {
+  background: var(--ttce-scrollbar);
+  border-radius: 4px;
+}
+
+.ttce-theme-root ::-webkit-scrollbar-thumb:hover {
+  background: var(--ttce-scrollbar-hover);
+}
